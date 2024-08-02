@@ -67,50 +67,57 @@ This entity will store the information of cities where donors, recipients and ho
 
 
 ## 1.	City and Hospital_Info:
-Relationship = “in”
-Type of relation = 1 to many
-Explanation = A city can have many hospitals in it. One hospital will belong in one city.
+
+1. Relationship = “in”
+2. Type of relation = 1 to many
+3. Explanation = A city can have many hospitals in it. One hospital will belong in one city.
 
 ## 2.	City and Blood_Donor:
-Relationship = “lives in”
-Type of relation = 1 to many
-Explanation = In a city, many donors can live. One donor will belong to one city.
+
+1. Relationship = “lives in”
+2. Type of relation = 1 to many
+3. Explanation = In a city, many donors can live. One donor will belong to one city.
 
 ## 3.	City and Recipient:
-Relationship = “lives in”
-Type of relation = 1 to many
-Explanation = In a city, many recipients can live. One recipient will belong to one city.
+
+1. Relationship = “lives in”
+2. Type of relation = 1 to many
+3. Explanation = In a city, many recipients can live. One recipient will belong to one city.
 
 ## 4.	Recording_Staff and Donor:
-Relationship = “registers”
-Type of relation = 1 to many
-Explanation = One recording staff can register many donors. One donor will register with one recording officer.
+1. Relationship = “registers”
+2. Type of relation = 1 to many
+3. Explanation = One recording staff can register many donors. One donor will register with one recording officer.
  
 
 ## 5.	Recording_Staff and Recipient:
-Relationship = “records”
-Type of relation = 1 to many
-Explanation = One recording staff can record many recipients. One recipient will be recorded by one recording officer.
+
+1. Relationship = “records”
+2. Type of relation = 1 to many
+3. Explanation = One recording staff can record many recipients. One recipient will be recorded by one recording officer.
 
 ## 6.	Hospital_Info and BB_Manager:
-Relationship = “gives order to”
-Type of relation = 1 to many
-Explanation = One Blood bank manager can handle and process requests from many hospitals. One hospital will place request to on blood bank manager.
+1. Relationship = “gives order to”
+2. Type of relation = 1 to many
+3. Explanation = One Blood bank manager can handle and process requests from many hospitals. One hospital will place request to on blood bank manager.
 
 ## 7.	BB_Manager and Blood Specimen:
-Relationship = “deals with specimen”
-Type of relation = 1 to many
-Explanation = One Blood bank manager can manage many blood specimens and one specimen will be managed by one manager.
+
+1. Relationship = “deals with specimen”
+2. Type of relation = 1 to many
+3. Explanation = One Blood bank manager can manage many blood specimens and one specimen will be managed by one manager.
 
 ## 8.	Recipient and BB_Manager:
-Relationship = “requests to”
-Type of relation = 1 to many
-Explanation = One recipient can request blood to one manager and one manager can handle requests from many recipients.
+
+1. Relationship = “requests to”
+2. Type of relation = 1 to many
+3. Explanation = One recipient can request blood to one manager and one manager can handle requests from many recipients.
 
 ## 9.	Disease_finder and Blood Specimen:
-Relationship = “checks”,
-Type of relation = 1 to many
-Explanation = A disease finder can check many blood samples. One blood sample is checked by one disease finder.
+
+1. Relationship = “checks”,
+2. Type of relation = 1 to many
+3. Explanation = A disease finder can check many blood samples. One blood sample is checked by one disease finder.
 
 
 ## SAMPLE SQL QUERIES

@@ -183,3 +183,6 @@ BB_Manager
 where BB_Manager.M_id = Hospital_Info_1.M_id
 and BB_Manager.M_id = 103;
 ```
+
+
+FOR DETAILED SQL QUERY CLICK ON THIS [LINK](https://github.com/aniketsharma345/Blood-Bank-Managment/blob/main/BLOOD_Bank_Mangment.sql)

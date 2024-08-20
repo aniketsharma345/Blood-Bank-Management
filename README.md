@@ -62,7 +62,7 @@ In the data base, under Hospital_Info entity we will store the information of ho
 This entity will store the information of cities where donors, recipients and hospitals are present. A unique identification number (City_ID) will be used as primary key to identify the information about the city. Along with ID city names will also be stored under this entity.
 
 ## ER Diagram
-![image](https://github.com/aniketsharma345/Blood-Bank-Managment/blob/main/ER%20diagram%20Of%20BB.png)
+![image](https://github.com/aniketsharma345/Blood-Bank-Managment/blob/main/ER%20diagram%20Of%20BB%20updated.png)
 
 ## RELATIONSHIP BETWEEN ENTITIES
 

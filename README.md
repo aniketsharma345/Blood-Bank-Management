@@ -194,4 +194,4 @@ and BB_Manager.M_id = 103;
 ```
 
 
-FOR DETAILED SQL QUERY CLICK [HERE](https://github.com/aniketsharma345/Blood-Bank-Managment/blob/main/BLOOD_Bank_Mangment.sql)
+FOR DETAILED SQL QUERY CLICK [HERE](https://github.com/aniketsharma345/Blood-Bank-Management/blob/main/BLOOD_Bank_Management.sql)
